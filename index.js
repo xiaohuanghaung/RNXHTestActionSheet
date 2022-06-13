@@ -3,6 +3,4 @@ import { NativeModules } from 'react-native';
 
 const { RNActionsheet } = NativeModules;
 
-// export default RNActionsheet;
-
-module.exports = RNActionsheet
+export default RNActionsheet;

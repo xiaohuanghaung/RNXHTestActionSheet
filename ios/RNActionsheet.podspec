@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNActionsheet"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "RNActionsheet"
   s.description  = <<-DESC
                   RNActionsheet

@@ -2,4 +2,8 @@ function toLog () {
   console.log('=====')
 }
 
-export {toLog}
+function toTwoLog () {
+  console.log('+++++++++')
+}
+
+export {toLog, toTwoLog}

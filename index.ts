@@ -1,15 +1,10 @@
 import RongIMWrapper from "./src/RongIMWrapper";
+import RCIMIWEngine from './src/Common/RCIMIWEngine'
+import {RCIMIWErrorCode, RCIMIWConnectionStatus, RCIMIWConversationType} from "./src/Common/RCIMIWDefines";
+import {RCIMIWEngineOptions} from "./src/Options/RCIMIWEngineOptions";
 
-function toLog () {
-  console.log('=====')
+function debugLog () {
+  console.log('您好,您已成功接入RongIMWrapper,欢迎使用')
 }
 
-function toTwoLog () {
-  console.log('+++++++++')
-}
-
-function toThreeLog () {
-  console.log('hahhaha')
-}
-
-export {toLog, toTwoLog, toThreeLog, RongIMWrapper}
+export {RongIMWrapper, RCIMIWEngine, RCIMIWErrorCode, RCIMIWConnectionStatus, RCIMIWConversationType, RCIMIWEngineOptions, debugLog}
